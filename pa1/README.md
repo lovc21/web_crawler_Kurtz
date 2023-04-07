@@ -14,6 +14,7 @@ This project consists of a web crawler that scrapes websites and stores the resu
 - SQLite database for managing crawl frontier and crawl delays
 
 ## Necessary programs
+- chromedriver
 - Docker (if on Windows, install docker desktop)
 - Docker Compose 
 - Postman 
