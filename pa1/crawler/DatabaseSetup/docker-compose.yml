@@ -1,0 +1,13 @@
+version: '3.3'
+services:
+    postgres:
+        container_name: postgresql-ieps-Lt-Colonel-Kilgore-team
+        environment:
+            - POSTGRES_PASSWORD=SecretPassword
+            - POSTGRES_USER=user
+        volumes:
+            - './pgdata:/var/lib/postgresql/data'
+            - './init-scripts:/docker-entrypoint-initdb.d'
+        ports:
+            - '5432:5432'
+        image: 'postgres:12.2'
