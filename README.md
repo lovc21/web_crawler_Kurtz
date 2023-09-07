@@ -1,6 +1,6 @@
 # Lt-Colonel-Kilgore-team web crawler
 ## Project description 
-This project consists of a web crawler that scrapes .gov websites and stores the results in a Postgres database. The project has two main components:
+This project consists of a web crawler that scrapes .gov websites and stores the results in a Postgres database.This web crawler was made for an assignment for the class in information retrieval and extraction. You can read more about the assignment on the following [link](https://szitnik.github.io/wier-labs/PA1.html). The project has two main components:
 
 1. Database Setup directory ('DatabaseSetup'): This directory contains a docker-compose file for setting up the Postgres database.   
 2. Web Crawler script ('WebCrawlerService.py'): This Python script is responsible for the web crawling process.
